@@ -16,4 +16,5 @@ barplot(
   main="Total PM2.5 Emissions From All Baltimore City Sources"
 )
 ANSWER 2:
-## The total PM2.5 have not continously decreased, They decreased from 1999 to 2002, but have increasedin 2005 and then decreased.
+# Looking at the graph on plot2.png, the total PM2.5 have not continously decreased, They decreased from 1999 to 2002,
+# but have increased in 2005 and then decreased.
