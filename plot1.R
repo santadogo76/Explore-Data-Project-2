@@ -15,3 +15,6 @@ barplot(
   ylab="PM2.5 Emissions (10^6 Tons)",
   main="Total PM2.5 Emissions From All US Sources"
 )
+
+ANSWER:
+## As observed from the plot, the total emissions have decreased in the US from 1999 to 2008
