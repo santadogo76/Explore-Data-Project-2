@@ -1,3 +1,4 @@
+## Data Preparation
 
 # Download archive file, if it does not exist
 archiveFile <- "NEI_data.zip"
@@ -11,3 +12,7 @@ if(!file.exists(archiveFile)) {
 }
 if(!(file.exists("summarySCC_PM25.rds") && 
 	file.exists("Source_Classification_Code.rds"))) { unzip(archiveFile) }
+
+## We now load the NEI and SCC data frames from the .rds file
+NEI <- readRDS("summarySCC_PM25.rds")
+SCC <- readRDS("Source_Classification_Code.rds
